@@ -20,8 +20,14 @@
 
   --base-font-size: 1rem;    /* 16px */
   --text-sm: 0.875rem;      /* 14px */
-  --text-lg: 1.125rem;     /* 18px */
-  --text-5xl: 3rem;       /* 48px */
+  --text-lg: 1.125rem;      /* 18px */
+  --text-2xl: 1.5rem;       /* 24px */
+  --text-5xl: 3rem;         /* 48px */
+  --text-6xl: 4rem;         /* 64px */
+
+  /* layout */
+  --max-width: 77.5rem;   /* 1240px */ 
+  --gutter: 1rem;         /* 16px */
 }
 
 

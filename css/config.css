@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+
+:root {
+  /* colors */
+  --gray-color-100: #bdbdbd;
+  --gray-color-200: #4f4f4f;
+  --gray-color-300: #333;
+
+  --white-color: #fff;
+
+  /* typography */
+  --primary-font: 'Space Mono', sans-serif;
+  --secondary-font: 'Inconsolata', monospace;
+
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+
+  --font-regular: 400;
+  --font-bold: 700;
+
+  --base-font-size: 1rem;    /* 16px */
+  --text-sm: 0.875rem;      /* 14px */
+  --text-lg: 1.125rem;     /* 18px */
+  --text-5xl: 3rem;       /* 48px */
+}
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: var(--primary-font);
+  font-size: var(--base-font-size);
+  line-height: var(--leading-normal);
+  color: var(--gray-color-300);
+  background-color: var(--white-color);
+}
+
+
+figure {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+h1, h2, h3
+{
+  margin: 0;
+  font-weight: var(--font-regular);
+  line-height: var(--leading-tight);
+}
+
+p {
+  margin: 0;
+}
